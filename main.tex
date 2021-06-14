@@ -1,8 +1,9 @@
-\documentclass[english]{moderncv}
+\documentclass[english,10pt,letterpaper]{moderncv}
 \usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
 \usepackage{geometry}
-\geometry{verbose,tmargin=1.5cm,bmargin=1.5cm,lmargin=1.5cm,rmargin=1.5cm}
+\usepackage{lastpage}
+\geometry{verbose,tmargin=2cm,bmargin=1.5cm,lmargin=2cm,rmargin=2cm}
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 \usepackage{babel}
@@ -21,12 +22,16 @@
 \moderncvcolor{blue}
 \firstname{Steve}
 \familyname{Meisburger}
-\title{Curriculum Vitae}
-\address{Baker Laboratory, Mailbox 244}{259 East Ave., Cornell University}{Ithaca, NY 14853-1301}
+\title{Curriculum vitae}
+\address{Cornell University}{Department of Chemistry \& Chemical Biology}{G47 Physical Sciences Building \makenewline Ithaca, NY 14853}
 \phone{(607) 255-4064}
-\email{spm82 -at- cornell.edu}
+\mobile{(607) 793-7622} 
+\email{spm82@cornell.edu}
 \homepage{spmeisburger.github.io}
 \setlength{\hintscolumnwidth}{2.5cm}
+
+\lfoot{\addressfont\textcolor{gray}{Curriculum vitae: Steve Meisburger, Cornell (\today)}}
+\rfoot{\addressfont\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
 
 \makeatother
 
@@ -37,62 +42,95 @@
 
 \section{Education}
 
-\cventry{Aug. 2014}{Doctor of Philosophy}{Applied Physics, Cornell University}{Ithaca, New York}{}{Ion interactions with single- and double-stranded DNA measured
-using solution X-ray scattering. Advisor - Lois Pollack}
+\cventry{Aug. 2014}{Doctor of Philosophy}{Applied Physics, Cornell University}{Ithaca, NY}{}{}
 
-\cventry{May 2007}{Bachelor of Arts}{Physics, Carleton College}{Northfield, Minnesota}{}{\emph{Summa cum laude}}
+\cvitem{}{Thesis: \emph{Ion interactions with single- and double-stranded DNA measured using solution X-ray scattering}.}
+\cvitem{}{Advisor: Lois Pollack}
 
-\section{Grants and Awards}
+\cventry{May 2007}{Bachelor of Arts}{Physics, Carleton College}{Northfield, MN}{\emph{Summa cum laude}}{}
+
+\section{Appointments}
+
+\cventry{2020-present}{Research Associate}{Chemistry \& Chemical Biology, Cornell University}{}{}{}
+\cvitem{}{Advisor: Nozomi Ando}
+
+\cventry{2018-2020}{Postdoctoral Research Associate}{Chemistry \& Chemical Biology, Cornell University}{}{}{}
+\cvitem{}{Advisor: Nozomi Ando}
+
+\cventry{2016-2018}{Postdoctoral Research Fellow}{Chemistry, Princeton University}{}{}{}
+\cvitem{}{Support: NIH NRSA Postdoctoral Fellowship (F32)}
+\cvitem{}{Advisor: Nozomi Ando}
+
+\cventry{2016-2018}{Postdoctoral Research Associate}{Chemistry, Princeton University}{}{}{}
+\cvitem{}{Advisor: Nozomi Ando}
+
+\section{Awards and Honors}
 
 \cventry{2016-2018}{NIH NRSA Postdoctoral Fellowship: ``Allosteric motions of B\textsubscript{12}
-enzymes''}{Princeton University}{Princeton, New Jersey}{}{ Advisor - Nozomi Ando (Chemistry). F32-GM117757.}
+enzymes''}{Princeton University}{}{\href{https://grantome.com/grant/NIH/F32-GM117757-02}{F32-GM117757}. Sponsors: Nozomi Ando \& Garnet Chan (Princeton Chemistry)}{}
 
-\cventry{May 2017}{Best Poster: Technical Achievement}{CHESS Users' Meeting}{}{}{For ``Unmixing Enzyme Allostery''.}
+\cventry{May 2017}{Best Poster: Technical Achievement}{CHESS Users' Meeting}{}{}{}
 
-\cventry{May 2017}{Travel Award}{American Crystallographic Association}{}{}{To attend annual meeting in New Orleans, LA.}
+\cventry{May 2017}{Travel Award}{American Crystallographic Association}{}{Meeting in New Orleans, LA}{}
 
-\cventry{Apr. 2017}{Travel and Professional Development Award}{American Society for Biochemistry and Molecular Biology}{}{}{To attend annual meeting in Chicago, IL.}
+\cventry{Apr. 2017}{Travel and Professional Development Award}{American Society for Biochemistry and Molecular Biology}{}{Meeting in Chicago, IL}{}
 
-\cventry{2008-2011}{NIH Predoctoral Training Grant in Molecular Biophysics}{Cornell University}{Ithaca, New York}{}{  Advisor - Lois Pollack (Applied \& Engineering Physics). \href{http://grantome.com/grant/NIH/T32-GM008267-26}{T32-GM008267}.}
+\cventry{2008-2011}{NIH Predoctoral Training Grant in Molecular Biophysics}{Cornell University}{}{\href{https://grantome.com/grant/NIH/T32-GM008267-26}{T32-GM008267}}{}
 
-\cventry{May 2007}{Distinction awarded for Senior Integrative Exercise (Thesis)}{Carleton College}{Northfield, Minnesota}{}{}
+\cventry{May 2007}{Distinction awarded for Senior Integrative Exercise (Thesis)}{Carleton College}{}{}{}
+
+\section{Teaching Experience}
+
+\cventry{Apr. 2021}{Instructor}{High Pressure Biology Workshop}{Cornell High Energy Synchrotron Source}{(Remote)}{}
+
+\cventry{(recurring)}{Instructor}{Everything BioSAXS: Getting started in biological small-angle x-ray solution scattering}{BioCAT beamline at Advanced Photon Source}{(Remote)}{Workshops in October 2020, March 2021}
+
+\cventry{Aug. 2020}{Instructor}{Applications of Small Angle Scattering to Structural Biology: An Introduction}{Workshop at the ACA Annual Meeting}{(Remote)}{}
+
+\cventry{(recurring)}{Instructor}{BioSAXS Essentials: Getting Started in Biological Small-Angle X-ray Solution Scattering}{Cornell High Energy Synchrotron Source}{Ithaca, NY}{Workshops in Nov. 2014, May 2016, May 2017, and April 2018}
+
+\cventry{Oct. 2018}{Lecturer}{9th annual SIBYLS BioSAXS workshop}{Advanced Light Source}{Berkeley, CA}{}
+
+\cventry{Fall 2018}{Guest Lecturer}{CHEM 2870: Introductory Physical Chemistry}{Cornell CCB}{}{}
+
+\cventry{Fall 2015}{Guest Lecturer}{CHM 515: Biophysical Chemistry I}{Princeton Chemistry}{}{}
+
+\cventry{Spring 2014}{Guest Lecturer}{CHM 516: Biophysical Chemistry II}{Princeton Chemistry}{}{}
+
+\cventry{2007-2008}{Teaching Assistant}{AEP 3630: Electronic Circuits}{Cornell Applied \& Eng. Physics}{}{}
 
 \section{Research Experience}
 
-\cventry{2018-present}{Postdoctoral Research Associate}{Cornell University}{Ithaca, New York}{}{ Advisor - Nozomi Ando (Chemistry and Chemical Biology).}
+\cventry{2020-present}{Researcher Associate}{Cornell Chemistry \& Chemical Biology}{}{}{Lab of Nozomi Ando}
 
-\cventry{2016-2018}{Postdoctoral Research Fellow}{Princeton University}{Princeton, New Jersey}{}{ Advisor - Nozomi Ando (Chemistry).}
+\cventry{}{New methods for dynamic structural biology}{}{}{}{Developing algorithms and experimental methods for diffuse X-ray scattering, SAXS, and cryo-EM to reveal protein motions important for function.}
 
-\cvlistitem{Investigated the dynamics of highly flexible multi-dommain metalloenzymes using solution small-angle X-ray scattering (SAXS) and X-ray diffuse scattering from crystals.}
+\cventry{2014-2020}{Postdoctoral Researcher}{Princeton Chemistry, Cornell Chemistry \& Chemical Biology}{}{}{Advisor: Nozomi Ando}
 
-\cvlistitem{Trained in biophysical chemistry of metalloproteins, including anaerobic technique, expression, purification, and crystallization.}
+\cventry{}{Protein dynamics from diffuse X-ray scattering}{}{}{}{Developed experimental and computational methods to utilize the diffuse scattering between the Bragg peaks to better understand protein motions within the crystal. Collaborators: David Case (Rutgers), Sol Gruner (Cornell), Eddie Arnold (Rutgers).}
 
-\cventry{2014-2016}{Postdoctoral Research Associate}{Princeton University}{Princeton, New Jersey}{}{ Advisor - Nozomi Ando (Chemistry).}
+\cventry{}{Allosteric motions of B\textsubscript{12} enzymes}{}{}{}{Investigated domain motions involved in regulating catalytic cycle of B\textsubscript{12}-dependent enzymes Methionine Synthase and Corrinoid FeS Protein / Methyltransferase using solution scattering and non-conventional X-ray crystallography.  Collaborator: Stephen Ragsdale (U. Michigan).}
 
-\cvlistitem{Established equilibrium model for allosteric regulation of liver Phenylalanine Hydroxylase by combining chromatography-coupled SAXS with mathematical deconvolution.}
+\cventry{}{Allosteric regulation of phenylalanine hydroxylase}{}{}{}{Revealed role of domain motion in allosteric regulation by combining chromatography-coupled SAXS with mathematical deconvolution. Collaborator: Paul Fitzpatrick (UT Health San Antonio).}
 
-\cventry{2008-2014}{Graduate Research Assistant}{Cornell University}{Ithaca, New York}{}{Advisor - Lois Pollack (Applied \& Engineering Physics)}
+\cventry{2008-2014}{Graduate Research Assistant}{Cornell Applied \& Engineering Physics}{}{}{Advisor: Lois Pollack}
 
-\cvlistitem{Microfabricated rapid mixers at the Cornell NanoScale Science \&
-Technology Facility.}
+\cventry{}{Instrumentation and methods for time-resolved SAXS and cryo-SAXS}{}{}{}{Designed and fabricated a microfluidic mixer and adapted a commercial stopped-flow mixer for time-resolved SAXS experiments on RNA folding and nucleosome disassembly. Developed methods for cryo-cooling compatible with SAXS data collection. Collaborators: Ken Hampel (U. Vermont Medical Center), Rob Thorne (Cornell).}
 
-\cvlistitem{Performed time-resolved and anomalous SAXS experiments at Cornell
-High Energy Synchrotron Source (CHESS) and the Advanced Photon Source
-(APS).}
+\cventry{}{Characterizing the unfolded state of nucleic acids and proteins}{}{}{}{
+Investigated electrostatic effects on single-stranded RNA and DNA homopolymers using SAXS. Applied polymer theory and atomistic modeling to reconcile SAXS and single-molecule FRET data from nucleic acids and protein L in the unfolded state. Collaborators: Gilad Haran (Weizmann Institute), Kevin Plaxco (UCSB), Tobin Sosnick (U. Chicago).}
 
-\cvlistitem{Transcribed, purified, and characterized RNA using biophysical techniques
-including fluorescence, UV melting, and atomic emission spectroscopy.}
+\cventry{}{Measuring and modeling the ion atmosphere around RNA and DNA}{}{}{}{Measured spatial distribution and number of positive ions surrounding DNA duplexes and RNA motifs using anomalous scattering from heavy atoms. Compared results with continuum electrostatic theory and atomistic simulations. Collaborators: Kurt Andresen (Gettysburg College), David Case (Rutgers), Ron Elber (U.T. Austin).}
 
-\cvlistitem{Thesis combined theory and experiment to understand the interplay
-of electrostatics and flexibility in the processes of RNA folding
-and DNA compaction.}
+\cventry{Summer 2006}{Undergraduate Researcher}{REU at the Santa Fe Institute}{Santa Fe, New Mexico}{}{Advisor: Alfred Hubler}
 
-\cventry{Summer 2006}{Undergraduate Researcher}{REU at the Santa Fe Institute}{Santa Fe, New Mexico}{}{  Advisor - Alfred Hubler}
-
-\cventry{Summer 2005}{Undergraduate Researcher}{NNIN REU at Stanford University}{Palo Alto, California}{}{  Advisor - Fabian Pease}
+\cventry{Summer 2005}{Undergraduate Researcher}{NNIN REU at Stanford University}{Palo Alto, California}{}{Advisor: Fabian Pease}
 
 
 \section{Publications}
+
+\cvitem{{[}24{]}}{\textbf{Meisburger SP}{*}, Xu D{*}, Ando N.
+\emph{REGALS: a general method to deconvolve X-ray scattering data from evolving mixtures.} \textbf{IUCrJ} 8: 225-237 (2021). {*}equal contribution}
 
 \cvitem{{[}23{]}}{\textbf{Meisburger SP}, Case DA, Ando N.
 \emph{Diffuse X-ray Scattering from Correlated Motions in a Protein Crystal.} \textbf{Nat. Comm.} 11: 1271 (2020). }
@@ -107,9 +145,7 @@ regulation by dATP.} \textbf{PNAS} 115: E4594\textendash E4603 (2018).}
 
 \cvitem{{[}20{]}}{\textbf{Meisburger SP}{*}, Thomas WC{*}, Watkins MB{*}, and Ando
 N. \emph{X-ray scattering studies of protein structural dynamics}.
-\textbf{Chem. Rev.} 117(12): 7615\textendash 72 (2017).}
-
-\cvitem{}{{*}equal contribution}
+\textbf{Chem. Rev.} 117(12): 7615\textendash 72 (2017). {*}equal contribution}
 
 \cvitem{{[}19{]}}{\textbf{Meisburger SP} \& Ando N. \emph{Correlated motions from
 crystallography beyond diffraction.} \textbf{Acc. Chem. Res }50: 580\textendash 583
@@ -120,10 +156,7 @@ crystallography beyond diffraction.} \textbf{Acc. Chem. Res }50: 580\textendash 
 of single-stranded DNA.} \textbf{Nucl. Acids Res.} 45: 3932-3943 (2017).}
 
 \cvitem{{[}17{]}}{Plumridge A{*}, \textbf{Meisburger SP}{*}, Pollack L. \emph{Visualizing
-single-stranded nucleic acids in solution.} \textbf{Nucl. Acids Res.}
-gkw1297 (2017).}
-
-\cvitem{}{{*}equal contribution}
+single-stranded nucleic acids in solution.} \textbf{Nucl. Acids Res.} gkw1297 (2017). {*}equal contribution}
 
 \cvitem{{[}16{]}}{\textbf{Meisburger SP, }Taylor AB, Khan CA, Zhang S, Fitzpatrick
 PF, Ando N. \emph{Domain movements upon activation of phenylalanine
@@ -171,16 +204,12 @@ with Cryo-SAXS.} \textbf{Biophys. J. }104(1): 227-36 (2013).}
 
 \cvitem{{[}7{]}}{Chen H{*}, \textbf{Meisburger SP}{*}, Pabit SA, Sutton JL, Webb
 WW, Pollack L. \emph{Ionic strength-dependent persistence lengths
-of single-stranded RNA and DNA. }\textbf{PNAS} 109(3): 799-804 (2012).}
-
-\cvitem{}{{*}equal contribution}
+of single-stranded RNA and DNA. }\textbf{PNAS} 109(3): 799-804 (2012). {*}equal contribution}
 
 \cvitem{{[}6{]}}{Yoo TY{*}, \textbf{Meisburger SP}{*}, Hinshaw J{*}, Pollack L, Haran
 G, Sosnick TR, Plaxco K. \emph{Small-angle X-ray scattering and single-molecule
 FRET spectroscopy produce highly divergent views of the low-denaturant
-unfolded state. }\textbf{J. Mol. Biol.} 418(3-4): 226-36 (2012).}
-
-\cvitem{}{{*}equal contribution}
+unfolded state. }\textbf{J. Mol. Biol.} 418(3-4): 226-36 (2012). {*}equal contribution}
 
 \cvitem{{[}5{]}}{Kirmizialtin S, Pabit SA, \textbf{Meisburger SP}, Pollack L, Elber
 R. \emph{RNA and its ionic cloud: solution scattering experiments
@@ -205,149 +234,80 @@ to the more effective charge screening in dsRNA compared with dsDNA.}
 
 \subsection{Patents}
 
-\cvitem{}{\textbf{Meisburger SP}, Warkentin MA, Hopkins JB, Katz AM, Pollack
+\cvitem{{[}1{]}}{\textbf{Meisburger SP}, Warkentin MA, Hopkins JB, Katz AM, Pollack
 L, and Thorne RE. (2018).\emph{ Apparatus and methods for low temperature
 small angle x-ray scattering.} US 9,927,336 (June 4, 2012).}
 
-\section{Presentations}
+\section{Presentations: Talks}
 
-\subsection{Talks}
+\cvitem{{[}13{]}}{Harvard-Hamburg Crystallographic Curiosities Seminar Series. (Remote) May 27, 2021. (Invited)}
 
-\cvitem{}{\emph{REGALS: data analysis at the SAS frontier.}
-Meisburger SP, Xu D, Ando N.
-\textbf{ACA Annual Meeting}: Session 2.1.4 Frontiers in SAS. August 13, 2020. \emph{Invited.}
-}
+\cvitem{{[}12{]}}{SBGrid Weekly Webinar Series. (Remote) April 6, 2021. (Invited)}
 
-\cvitem{}{\emph{On the origin of diffuse X-ray scattering from protein crystals.} Meisburger SP, Ando N. \textbf{ACS Northeast Regional Meeting}. June 25, 2019. \emph{Invited.}}
+\cvitem{{[}11{]}}{ACA Annual Meeting, Session 2.1.4: Frontiers in SAS. (Remote) Aug. 13, 2020. (Invited)}
 
-\cvitem{}{\emph{Correlated Motions from Protein Crystallography.} Meisburger SP, Case DA, Ando N. \textbf{Seminar at the Center for Nonlinear Studies, Los Alamos National Lab}. October 16, 2018. \emph{Invited.}}
+\cvitem{{[}10{]}}{CHESS Commons Meeting. (Remote) Mar. 20, 2020. (Invited)}
 
-\cvitem{}{\emph{Correlated Motions from Protein Crystallography.} Meisburger SP, Case DA, Ando N. \textbf{ACA Annual Meeting}: Session 1.1.1 Closing the R-Factor Gap in Protein Crystallography. July 21, 2018.}
+\cvitem{{[}9{]}}{ACS Northeast Regional Meeting. Saratoga Springs, NY. June 25, 2019. (Invited)}
 
-\cvitem{}{\emph{A new method for computational purification of complex mixtures by chromatography-coupled SAXS.} Meisburger SP, Taylor AB, Khan CA, Zhang S, Fitzpatrick PF, Ando N. \textbf{ACA Annual Meeting}: Hybrid Methods - BioSAXS Session. May 27, 2017.}
+\cvitem{{[}8{]}}{Center for Nonlinear Studies, Los Alamos National Laboratory. Oct. 16, 2018. (Invited)}
 
-\cvitem{}{\emph{Unmixing Enzyme Allostery.} Meisburger SP, Taylor AB, Khan CA, Zhang S, Fitzpatrick PF, Ando N. \textbf{ASBMB Annual
-Meeting}: Structural Dynamics of Enzymes Spotlight Session. April
-24, 2017. \emph{Invited.}}
+\cvitem{{[}7{]}}{ACA Annual Meeting, Session 1.1.1: Closing the R-Factor Gap in Protein Crystallography. Toronto, Ontario. July 21, 2018. (Contributed)}
 
-\cvitem{}{\emph{X-ray imaging of enzymes in motion.} Meisburger SP. \textbf{CHESS-U Workshops: Biomolecules in Motion.} June 8, 2016. \emph{Invited.}}
+\cvitem{{[}6{]}}{ACA Annual Meeting, Session 1.1.1: Hybrid Methods - BioSAXS Session. New Orleans, LA. May 27, 2017. (Contributed)}
 
-\cvitem{}{\emph{Sorting out the structure of single-stranded DNA.} Meisburger SP, Sutton JL, Chen H, Andresen K, Pollack L. \textbf{58th Annual
-Biophysical Society Meeting.} Feb. 2014.}
+\cvitem{{[}5{]}}{ASBMB Annual Meeting, Spotlight Session: Structural Dynamics of Enzymes. Chicago, IL. April 24, 2017. (Contributed)}
 
-\cvitem{}{\emph{Introducing Cryo-SAXS: Solution structures from nanoliter volumes}. Meisburger SP, Warkentin M, Chen H, Hopkins JB, Katz AM, Gillilan RE, Pollack L.\textbf{ CHESS Users\textquoteright{} Meeting.} June 2013. \emph{Invited.}}
+\cvitem{{[}4{]}}{CHESS-U Workshop: Biomolecules in Motion. Ithaca, NY. June 8, 2016. (Invited)}
 
-\cvitem{}{\emph{Time-Resolved SAXS Reconstructions Reveal a Kinetic Intermediate in RNA Folding}. Meisburger SP, Pabit SA, Li L, Blose JM, Brooks K, Hampel K, Pollack L.\textbf{ RNA-UNY Conference}. Oct. 2010.}
+\cvitem{{[}3{]}}{Biophysical Society Meeting, Platform: DNA Structure and Dynamics. San Francisco, CA. Feb. 18, 2014. (Contributed)}
 
-\subsection{Posters (selected)}
+\cvitem{{[}2{]}}{CHESS Users\textquoteright{} Meeting. Ithaca, NY. June 2013. (Invited)}
 
-\cvitem{}{\emph{Unmixing Enzyme Allostery.{*}} Meisburger SP\textbf{, }Taylor
-AB, Khan CA, Zhang S, Fitzpatrick PF, Ando N. \textbf{CHESS Users'
-Meeting}. June 2017.}
+\cvitem{{[}1{]}}{RNA-UNY. Rensselaerville, NY. Oct. 9, 2010. (Contributed)}
 
-\cvitem{}{{*}Awarded best poster: technical achievement}
+\section{Presentations: Posters (Selected)}
 
-\cvitem{}{\emph{Introducing Cryo-SAXS for measuring low resolution macromolecular
-structure without radiation damage.} Meisburger SP, Warkentin M, Chen
-H, Hopkins JB, Katz AM, Gillilan RE, Thorne RE, Pollack L. \textbf{57th
-Annual Biophysical Society Meeting.} Feb. 2013.}
+\cvitem{{[}6{]}}{Meisburger SP, Taylor AB, Khan CA, Zhang S, Fitzpatrick PF, Ando N. \emph{Unmixing Enzyme Allostery.}{*} CHESS Users' Meeting. June 2017. {*}\emph{Best poster: technical achievement}}
 
-\cvitem{}{\emph{A semi-transparent beamstop for accurate normalization of
-millisecond time-resolved SAXS profiles.} Meisburger SP, Gillilan
-RE, Woll A, Pollack L. \textbf{Chess Users' Meeting}. June 2012.}
+\cvitem{{[}5{]}}{Meisburger SP, Warkentin M, Chen
+H, Hopkins JB, Katz AM, Gillilan RE, Thorne RE, Pollack L. \emph{Introducing Cryo-SAXS for measuring low resolution macromolecular structure without radiation damage.} Biophysical Society Meeting. Feb. 2013.}
 
-\cvitem{}{\emph{Solution structures of flexible RNA molecules in mono- and
-divalent salt.} Meisburger SP, Chen H, Pabit SA, Sutton JL, Webb WW,
-Pollack L. \textbf{56th Annual Biophysical Society Meeting.} Feb 2012.}
+\cvitem{{[}4{]}}{Meisburger SP, Gillilan RE, Woll A, Pollack L. \emph{A semi-transparent beamstop for accurate normalization of millisecond time-resolved SAXS profiles.} Chess Users' Meeting. June 2012.}
 
-\cvitem{}{\emph{Measuring the dimensions of a compact kinetic intermediate
-in the folding pathway of the GlmS Ribozyme. }Meisburger SP, Pabit
-SA, Li L, Blose JM, Brooks K, Hampel K, Pollack L. \textbf{55th Annual
-Biophysical Society Meeting. }Feb 2011.}
+\cvitem{{[}3{]}}{Meisburger SP, Chen H, Pabit SA, Sutton JL, Webb WW, Pollack L. \emph{Solution structures of flexible RNA molecules in mono- and divalent salt.} Biophysical Society Meeting. Feb 2012.}
 
-\cvitem{}{\emph{Visualizing the structure of the glmS riboswitch as it folds
-using time-resolved SAXS.} Meisburger SP, Pabit SA, Li L, Blose JM,
-Hampel K, Pollack L. \textbf{54th Annual Biophysical Society Meeting.
-}Feb 2010.}
+\cvitem{{[}2{]}}{Meisburger SP, Pabit SA, Li L, Blose JM, Brooks K, Hampel K, Pollack L. \emph{Measuring the dimensions of a compact kinetic intermediate in the folding pathway of the GlmS Ribozyme.} Biophysical Society Meeting. Feb 2011.}
 
-\section{Teaching \& Mentoring}
-
-\subsection{Workshops}
-
-\cventry{August 2020}{Lecturer}{ACA Annual Meeting}{(Online)}{}{\emph{Applications of Small Angle Scattering to Structural Biology: An Introduction}}
-
-\cventry{October 2018}{Lecturer}{Advanced Light Source}{Berkeley, California}{}{   \emph{9th annual SIBYLS BioSAXS workshop}}
-
-\cventry{April 2018}{Lecturer}{Cornell High Energy Synchrotron Source}{Ithaca, New York}{}{   \emph{BioSAXS Essentials 8: Getting Started in Biological
-Small-Angle X-ray Solution Scattering}}
-
-\cventry{May 2017}{Lecturer}{Cornell High Energy Synchrotron Source}{Ithaca, New York}{}{   \emph{BioSAXS Essentials 7: Getting Started in Biological
-Small-Angle X-ray Solution Scattering}}
-
-\cventry{May 2016}{Lecturer}{Cornell High Energy Synchrotron Source}{Ithaca, New York}{}{   \emph{BioSAXS Essentials 6: Getting Started in Biological
-Small-Angle X-ray Solution Scattering}}
-
-\cventry{Nov. 2014}{Lecturer}{Cornell High Energy Synchrotron Source}{Ithaca, New York}{}{   \emph{BioSAXS Essentials 5: Getting Started in Biological
-Small-Angle X-ray Solution Scattering}}
-
-\subsection{Mentoring}
-
-\cventry{2016}{Mentor}{Princeton University}{Princeton, New Jersey}{}{   Supervised an undergraduate thesis project in Chemistry on simulation of diffuse scattering from crystals (Brian Chang '16)}
-
-\cventry{2012-2013}{Mentor}{Cornell University}{Ithaca, New York}{}{Supervised an undergraduate honors thesis project in Applied Physics on ion counting with ICP-AES (Peter Gu '13)}
-
-\cventry{2012-2013}{Mentor}{Cornell University}{Ithaca, New York}{}{Supervised undergraduate honors thesis project in Applied Physics on measuring distances in DNA with gold nanoparticle labels (Mark Landy '13)}
-
-\subsection{University Teaching}
-
-\cventry{Fall 2018}{Guest Lecturer}{Cornell University}{Ithaca, New York}{}{   CHEM 2870: \emph{Introductory Physical Chemistry}}
-
-\cventry{Fall 2015}{Teaching Assistant}{Princeton University}{Princeton, New Jersey}{}{  CHM 515: \emph{Biophysical Chemistry I} }
-
-\cventry{Spring 2014}{Guest Lecturer}{Princeton University}{Princeton, New Jersey}{}{   CHM 516: \emph{Biophysical Chemistry II}}
-
-\cventry{Fall 2013}{Guest Lecturer}{Cornell University}{Ithaca, New York}{}{   ENGRD 2520: \emph{Physics of Life}}
-
-\cventry{2012-2013}{Teaching Assistant}{Cornell University}{Ithaca, New York}{}{   AEP 3630:\emph{ Electronic Circuits}}
+\cvitem{{[}1{]}}{Meisburger SP, Pabit SA, Li L, Blose JM, Hampel K, Pollack L. \emph{Visualizing the structure of the glmS riboswitch as it folds using time-resolved SAXS.} Biophysical Society Meeting. Feb 2010.}
 
 
-\section{Professional Societies}
+\section{Professional Activities}
 
-\cventry{2017-present}{American Crystallographic Association}{}{}{}{}
+\cvitem{2021}{Chair, ACA Small Angle Scattering Scientific Interest Group}
+\cvitem{Aug. 2020}{Session chair, American Crystallographic Association (ACA) Meeting}
+\cvitem{2020}{Chair-elect, ACA Small Angle Scattering Scientific Interest Group}
+\cvitem{Aug. 2019}{Session chair, ACA Meeting}
+\cvitem{2016-2019}{Elected member, Cornell High Energy Synchrotron Source User Executive Committee}
+\cvitem{Feb. 2014}{Platform session chair, Biophysical Society Meeting}
 
-\cvlistitem{Speaker at 2020 Annual Meeting: \emph{REGALS: Data Analysis at the SAS Frontier}}
+\cvitem{2021}{Reviewer for \emph{Structural Dynamics}}
+\cvitem{2020-present}{Reviewer for \emph{Review of Scientific Instruments}}
+\cvitem{2017-present}{Reviewer for \emph{IUCrJ}}
+\cvitem{2015-present}{Reviewer for \emph{JACS}}
 
-\cvlistitem{Co-chair / organizer of \emph{Structural Dynamics I: Protein Collective Motions Studied by X-ray Scattering and Diffraction} session at the 2020 annual meeting.}
+\section{Professional Memberships}
 
-\cvlistitem{Co-chair / organizer of \emph{Diffuse Scattering for Biological Structure and Dynamics} session at the 2019 annual meeting.}
+\cvitem{2017-present}{American Crystallographic Association}
+\cvitem{2009-2015}{Biophysical Society}
 
-\cvlistitem{Speaker at 2018 Annual Meeting: \emph{Correlated Motions from Protein
-Crystallography}}
+%\section{Mentoring \& Outreach}
 
-\cventry{2009-2015}{Biophysical Society}{}{}{}{}
+\section{References}
 
-\cvlistitem{Co-chair of \emph{Platform AR: DNA Structure \& Dynamics} at the
-58th Annual Meeting (Feb 2014), San Francisco, CA}
+\cvitem{}{Available upon request.}
 
-\cvlistitem{Platform speaker at the 58th Annual Meeting (Feb 2014): \emph{Sorting
-out the structure of single-stranded DNA}}
-
-\cvlistitem{Poster presenter at the 2010, 2011, 2012, and 2013 Annual Meetings}
-
-\section{Committees and Service}
-
-\cventry{2020}{Chair-elect of the Small Angle Scattering Scientific Interest Group}{American Crystallographic Association}{}{}{}
-
-\cventry{2016-2019}{Elected member of the User Executive Committee}{Cornell High Energy Synchrotron Source}{Ithaca, New York}{}{}
-
-\cventry{2020}{Reviewer}{AIP}{}{}{}
-
-\cventry{2017-present}{Reviewer}{IUCR}{}{}{}
-
-\cventry{2015-present}{Reviewer}{ACS}{}{}{}
-
-\end{document}
-
-
+%\renewcommand{\listitemsymbol}{} % Changes the symbol used for lists
+%\cvlistdoubleitem{Nozomi Ando}{David Case}
 
 \end{document}
